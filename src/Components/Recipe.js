@@ -16,7 +16,7 @@ export default class Recipe extends Component{
          <h6 className='text-slanted text-warning'>provided by {publisher}</h6>
          </div>
          <div className='card-footer'>
-          <Link to={`/recipies/${recipe_id}`} className='btn btn-primary text-capitalize' >details</Link>
+          <Link to={`/recipes/${recipe_id}`} className='btn btn-primary text-capitalize' >details</Link>
           <a href={source_url} target='_blank' rel='noopener noreferrer' className='btn btn-success mx-2' >recipe url</a>
          </div>
        </div>
